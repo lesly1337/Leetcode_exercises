@@ -1,3 +1,4 @@
+//STATUS: WORKING
 #pragma once
     struct ListNode {
         int val;

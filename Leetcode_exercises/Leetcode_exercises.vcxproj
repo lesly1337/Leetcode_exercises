@@ -130,10 +130,12 @@
     <ClCompile Include="Leetcode_exercises.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="AddBinary.h" />
     <ClInclude Include="climb.h" />
     <ClInclude Include="MergeArrays.h" />
     <ClInclude Include="remove_duplicates_sorted_array.h" />
     <ClInclude Include="sqrt.h" />
+    <ClInclude Include="StringToInteger.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

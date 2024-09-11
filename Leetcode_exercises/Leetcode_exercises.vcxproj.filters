@@ -32,5 +32,11 @@
     <ClInclude Include="remove_duplicates_sorted_array.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="StringToInteger.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
+    <ClInclude Include="AddBinary.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

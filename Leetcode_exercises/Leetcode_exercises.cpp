@@ -4,12 +4,17 @@
 #include <iostream>
 //#include "sqrt.h"
 //#include "climb.h"
-#include "remove_duplicates_sorted_array.h"
+//#include "remove_duplicates_sorted_array.h"
+//#include "AddBinary.h"
+
+
+#include "StringToInteger.h"
 int main()
 {
-    ListNode a(5);
-    ListNode b(4, &a);
-    std::cout << b.val << '\t' << (*b.next).val << std::endl;
+    std::string a = "-000000000000000001";
+    Solution x;
+    std::cout << "My result :" << x.myAtoi(a) << std::endl;
+    std::cout << "Build in atoi result :" << atoi(a.c_str()) << std::endl;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
